@@ -1,0 +1,38 @@
+.header{
+
+    .container{
+        width: 1111px;
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        list-style-type: none;
+        margin: 33px;
+    }
+
+    &__link2{
+        text-decoration: none;
+        color: #333136;
+        font-family: "Jost";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 2px;
+    }
+
+    &__link2:hover{
+        color: aqua;
+    }
+}

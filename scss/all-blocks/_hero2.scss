@@ -1,0 +1,91 @@
+.hero2{
+    margin-top: 200px;
+
+    &__info{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list{
+        width: 541px;
+        height: 640px;
+        background-image: url(../img/web0.png);
+        background-repeat: no-repeat;
+        display: block;
+        margin-left: 150px;
+    }
+
+    &__item{
+        list-style-type: none;
+        padding-top: 250px;
+    }
+
+    &__heading{
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    &__text{
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__list2{
+        margin-right: 180px;
+        margin-top: -15px;
+    }
+
+    &__item2{
+        width: 541px;
+        height: 308px;
+        background-image: url(../img/web1.png);
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    &__heading2{
+        color: #FFF;
+        text-align: center;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 2px;
+        padding-top: 107px;
+    }
+
+    &__item3{
+        width: 541px;
+        height: 308px;
+        background-image: url(../img/web01.png);
+        background-repeat: no-repeat;
+        display: block;
+        margin-top: -10px;
+    }
+
+    &__heading3{
+        color: #FFF;
+        text-align: center;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+        letter-spacing: 2px;
+        padding-top: 107px;
+    }
+}

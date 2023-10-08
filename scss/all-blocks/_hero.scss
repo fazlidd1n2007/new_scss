@@ -1,0 +1,83 @@
+.hero{
+    margin-left: 165px;
+
+    .container{
+        margin: 0 auto;
+    }
+
+
+    &__info{
+        display: flex;
+        margin: 0 auto;
+        width: 1111px;
+        height: 640px;
+        background-image: url(../img/fon2.png);
+        background-repeat: no-repeat;
+        background-color: #E7816B;
+        border-radius: 8px;
+        margin-left: 0px;
+    }
+
+    &__list{
+        padding-top: 100px;
+        padding-left: 95px;
+    }
+
+
+    &__item{
+        list-style-type: none;
+    }
+
+    &__heading{
+        width: 540px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+    }
+
+    &__text{
+        width: 405px;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+
+    &__link{
+        padding-top: 109px;
+        margin-left: 100px;
+    }
+
+    &__info2{
+        margin-top: -150px;
+        margin-left: 120px;
+    }
+
+    &__button{
+        width: 152px;
+        height: 56px;
+        background-color: #FFF;
+        border-radius: 8px;
+        border-color: #FFF;
+    }
+
+    &__link3{
+        color: #333136;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    }
+
+
+}
